@@ -1,0 +1,35 @@
+{
+  "name": "menus",
+  "version": "0.0.0",
+  "description": "Menus app using Electron",
+  "license": "MIT",
+  "repository": "egoist/menus",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "eslint *.js",
+    "dev": "electron ./example/index.js"
+  },
+  "files": [
+    "index.js",
+    "example"
+  ],
+  "keywords": [
+    "electron",
+    "menubar"
+  ],
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.1",
+    "eslint": "latest",
+    "eslint-config-egoist": "latest"
+  },
+  "eslintConfig": {
+    "extends": "egoist/esnext"
+  }
+}
