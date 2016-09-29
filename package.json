@@ -1,6 +1,6 @@
 {
   "name": "menus",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Menus app using Electron",
   "license": "MIT",
   "repository": "egoist/menus",
