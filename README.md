@@ -33,7 +33,7 @@ menus.on('ready', () => {
 })
 ```
 
-For a more complete example, please check out [example]('./example/index.js').
+For a more complete example, please check out [example](./example/index.js).
 
 ## API
 
